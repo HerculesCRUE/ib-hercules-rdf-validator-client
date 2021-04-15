@@ -1,6 +1,17 @@
-# RDFShape-client
+![](https://github.com/HerculesCRUE/ib-asio-docs-/blob/master/images/logos_feder.png)
 
-This is the front-end part of the [rdfshape.weso.es](http://rdfshape.weso.es) tool. 
+| Entregable     | Servicio API de validación de RDF                            |
+| -------------- | ------------------------------------------------------------ |
+| Fecha          | 15/04/2021                                                   |
+| Proyecto       | [ASIO](https://www.um.es/web/hercules/proyectos/asio) (Arquitectura Semántica e Infraestructura Ontológica) en el marco de la iniciativa [Hércules](https://www.um.es/web/hercules/) para la Semántica de Datos de Investigación de Universidades que forma parte de [CRUE-TIC](https://www.crue.org/proyecto/hercules/) |
+| Módulo         | Librería de validación de RDF                  |
+| Tipo           | Software                                                     |
+| Objetivo       | Servicio web en formato frontend para la validación de RDF |
+| Estado         | **100%** Todos los casos de usos de este sistema han sido implementados, así como la documentación asociada. |
+
+# Hercules RDF Validator Client
+
+This is the front-end part of the [https://github.com/HerculesCRUE/ib-hercules-rdf-validator-back](https://github.com/HerculesCRUE/ib-hercules-rdf-validator-back) tool. 
 
 This project is a pure client library implemented with [React](http://reactjs.org/). 
 It was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
