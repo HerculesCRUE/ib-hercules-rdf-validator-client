@@ -4,11 +4,12 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import API from "./API.js";
+import './App.css'
 
 class RDFShapeNavbar extends React.Component {
   render() {
     return (
-      <Navbar bg="primary" expand="md" filled="true" variant="dark">
+      <Navbar className="main-nav">
         <Navbar.Brand href="/">RDFShape</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

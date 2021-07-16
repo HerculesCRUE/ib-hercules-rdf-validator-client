@@ -3,17 +3,18 @@ on:
   # Manual trigger
   workflow_dispatch:
 
-  # Trigger on push to main
   push:
     branches:
       - main
-  # Trigger on PR merging to main
+      - master
+
   pull_request:
     branches:
       - main
+      - master
 
 jobs:
-  test:
+  build_and_test:
     name: Build and test the application
     runs-on: ubuntu-latest
     steps:

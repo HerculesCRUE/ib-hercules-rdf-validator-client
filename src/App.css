@@ -2,6 +2,12 @@ html {
   scroll-behavior: smooth;
 }
 
+body{
+  font-family: 'Inter', sans-serif !important;
+  font-weight: normal !important;
+  color: #555555 !important;
+}
+
 .App {
   text-align: center;
 }
@@ -13,7 +19,7 @@ html {
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #312834;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -51,3 +57,25 @@ html {
 .jumbotron {
   background-color: white !important;
 }
+
+.main-nav {
+  background: #bd2a33 !important  ;
+  background-color: #bd2a33 !important  ;
+}
+
+:is(.main-nav,.nav-item) > a {
+  margin: 13px 0 13px 12px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #ffffffe6 !important;
+  vertical-align: top;
+  display: inline-block;
+  line-height: 1.5;
+}
+
+button {
+  background: #bd2a33 !important;
+  border:none !important;
+}
+
+
